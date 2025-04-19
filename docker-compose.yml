@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  upload-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pf_dockerizacion-upload-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--reload"]
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: solid_template_tests
+    command: ["pytest", "tests/"]
+
