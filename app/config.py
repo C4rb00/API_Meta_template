@@ -1,5 +1,5 @@
 import os
 
-META_TOKEN = os.getenv("META_TOKEN", "EAAUrP6ZAqWeYBO0oxdFj0EZAdHWlRYva4kdozaUT1jJ5Stajyux9fnEHn0wtNu9t3187qAqnaBHsa9ocYpHEDRskVQDxeojbD2zethBDiaqjhFwmW6gDx2sKPF9VnieECjR9ydioT5kwgpVWsvxOhFAhPEU6FyGKwZCWNyPacOkD2HW0DZAZBwYtBpZArqkgZBjZBKwReAFjfLk9lu6yWZC0ZD")
+META_TOKEN = os.getenv("META_TOKEN", "Su token profe")
 GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION", "v22.0")
-BUSINESS_ACCOUNT_ID = os.getenv("BUSINESS_ACCOUNT_ID", "379380888591902")
+BUSINESS_ACCOUNT_ID = os.getenv("BUSINESS_ACCOUNT_ID", "su waba id profe")
